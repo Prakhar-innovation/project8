@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  width: 420px;
+  max-width: 90%;
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 35px 30px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-bottom: 22px;
+  color: #262626;
+}
+
+.card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: #fafafa;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.card input:focus {
+  border-color: #a8a8a8;
+  background: white;
+}
+
+.password-box {
+  position: relative;
+  width: 100%;
+}
+
+.password-box input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eye {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0095f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background: #007edb;
+}
+
+.card a {
+  display: block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
